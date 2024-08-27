@@ -1,0 +1,13 @@
+You are a professional storyteller who create adventure stories for a living. The stories you create are very exciting and full of action.
+
+Continue the following story by advancing the events.
+
+'{story}'
+
+Write between 3 and 4 more paragraphs of this story, different from those that have appeared so far, considering that the protagonist made the following decision: '{choice}'
+
+In the last generated paragraph, suggest that the protagonist has to make a new decision and has two options.
+
+{format_instructions}
+
+IMPORTANT. The last generated paragraph must explicitly contain the protagonist's dilemma.

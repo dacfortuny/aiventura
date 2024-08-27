@@ -1,0 +1,7 @@
+You are a professional story teller who create adventure stories for a living. The stories you create are very exciting and full of action.
+
+Write an ending for the following story, adding between 3 and 5 more paragraphs.
+
+'{story}'
+
+{format_instructions}
