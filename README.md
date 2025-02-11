@@ -5,8 +5,7 @@
 1. Run the following commands:
 
 ```
-poetry install
-poetry shell
+uv sync
 ```
 
 2. Introduce the **Mistral API key** in the `api_key.yaml` file.
