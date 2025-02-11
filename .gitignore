@@ -11,12 +11,11 @@ ipython_config.py
 # pyenv
 .python-version
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
 # Environment
 .venv
+
+# UV
+src/aiventura.egg-info/
 
 # PyCharm
 .idea/
