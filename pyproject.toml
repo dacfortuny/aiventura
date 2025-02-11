@@ -1,18 +1,20 @@
-[tool.poetry]
+[project]
 name = "aiventura"
 version = "0.1.0"
 description = ""
-authors = ["Didac Fortuny <dacfortuny@gmail.com>"]
 readme = "README.md"
+authors = [{name = "Didac Fortuny", email = "dacfortuny@gmail.com"}]
+requires-python = "<4.0,>=3.11"
+dependencies = [
+    "omegaconf",
+    "langchain",
+    "langchain-mistralai",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-isort = "^5.13.2"
-jupyterlab = "^4.2.3"
-omegaconf = "^2.3.0"
-langchain = "^0.2.14"
-langchain-mistralai = "^0.1.12"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+dev-dependencies = [
+    "jupyterlab",
+    "isort",
+    "jupytext",
+    "pytest"
+]
