@@ -11,8 +11,8 @@ dependencies = [
     "langchain-mistralai",
 ]
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "jupyterlab",
     "isort",
     "jupytext",
